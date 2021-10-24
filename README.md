@@ -31,7 +31,7 @@ command! VimwikiCreateNewTask :call VimwikiCreateNewTask()
 nmap <leader>wt :VimwikiCreateNewTask<CR>
 ```
 
-### Optional
+## Optional Configuration
 
 Add in your `~/.zshrc` file
 ``` sh
