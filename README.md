@@ -38,6 +38,13 @@ Add in your `~/.zshrc` file
 alias task="vim ~/vimwiki/src/tasks.md"
 ```
 
+Copy the task template `./assets/template.md` into the configuration file
+
+``` sh
+cp ./assets/template.md ~/.config/vimwiki-taskmd/template.md
+```
+
+
 ## Usage
 - `task` - Create a new wiki file when you are in terminal
 - `<leader>ww` - Create new wiki file when you are in vim
@@ -47,12 +54,4 @@ alias task="vim ~/vimwiki/src/tasks.md"
 ## Demo
 
 ![Demo](./images/demo.gif)
-
-
-
-
-
-
-
-
 

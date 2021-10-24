@@ -3,3 +3,4 @@ tasks
 tasks.md
 package-lock.json
 yarn.lock
+yarn-error.log

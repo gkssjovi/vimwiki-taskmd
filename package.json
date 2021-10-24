@@ -3,15 +3,15 @@
     "version": "1.0.0",
     "main": "bin/index.js",
     "scripts": {
-        "app:run": "node . --absolute-path $HOME/Desktop/vimwiki-taskmd --dest ./tasks/ --index ./tasks.md --format 'task_{index}_{date}'",
+        "app:run": "node . --dest ./tasks/ --index ./tasks.md --format 'task_{index}_{date}'",
         "app:install": "npm install -g .",
         "app:uninstall": "npm uninstall -g vimwiki-taskmd",
+        "app:reinstall": "npm uninstall -g vimwiki-taskmd && npm install -g .",
         "test": "echo \"Error: no test specificed\" && exit 1"
     },
     "keywords": [],
     "author": "Ovidiu Cimpean",
     "license": "MIT",
-    "type": "module",
     "bin": {
         "vimwiki-taskmd": "./bin/index.js"
     },
