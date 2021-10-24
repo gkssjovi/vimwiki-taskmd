@@ -1,13 +1,13 @@
-#### Description
+## Description
 
 Create new task in markdown format using vimwiki
 
-#### Requirements
+## Requirements
 
 You must install this plugin for neovim
 https://github.com/vimwiki/vimwiki
 
-#### Installation
+## Installation
 
 ``` sh
 git clone https://github.com/gkssjovi/vimwiki-taskmd.git
@@ -18,7 +18,7 @@ vimwiki-taskmd --help
 ```
 
 
-#### Configuration
+## Configuration
 
 Open the file `~/.config/nvim/init.vim` and insert the following lines to the bottom of the file.
 
@@ -31,20 +31,20 @@ command! VimwikiCreateNewTask :call VimwikiCreateNewTask()
 nmap <leader>wt :VimwikiCreateNewTask<CR>
 ```
 
-##### Optional
+### Optional
 
 Add in your `~/.zshrc` file
 ``` sh
 alias task="vim ~/vimwiki/src/tasks.md"
 ```
 
-#### Usage
+## Usage
 - `task` - Create a new wiki file when you are in terminal
 - `<leader>ww` - Create new wiki file when you are in vim
 - `<leader>wt` - Create a new task and add a new line to `tasks.md` file
 
 
-#### Demo
+## Demo
 
 ![Demo](./images/demo.gif)
 
