@@ -1,6 +1,6 @@
 {
     "name": "vimwiki-taskmd",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "bin/index.js",
     "scripts": {
         "app:run": "node . --dest ./tasks/ --index ./tasks.md --format 'task_{index}_{date}'",
