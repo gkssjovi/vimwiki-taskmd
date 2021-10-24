@@ -35,7 +35,7 @@ nmap <leader>wt :VimwikiCreateNewTask<CR>
 
 Add in your `~/.zshrc` file
 ``` sh
-alias task="vim ~/vimwiki/src/tasks.md"
+alias tasks="vim ~/vimwiki/src/tasks.md"
 ```
 
 Copy the task template `./assets/template.md` into the configuration file
