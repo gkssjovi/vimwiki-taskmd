@@ -13,7 +13,6 @@ const render = (vars) => {
     let tpl = template;
     const templatePath = path.join(os.homedir(), '.config/vimwiki-taskmd/template.md');
 
-
     if (fs.existsSync(templatePath)) {
         tpl = fs.readFileSync(templatePath, 'utf-8');
     }
